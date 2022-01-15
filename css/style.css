@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*-- header section area start --*/
+.header-section{
+	background: #212529; 
+}
+
+.logo img{
+	width: 251px;
+	padding: 16px 0;
+}
+
+.menu{
+	margin-top: 30px;
+}
+
+.menu ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #fff;
+	padding: 0 12px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.menu ul li:hover a{
+	color: #34ADFE;
+}
+/*--header section area end--*/ 
+
+/*-- Chief section area start --*/
+.Chief-section{
+	padding: 70px 0;
+}
+
+.Chief-wrapper h2{
+	font-size: 32px;
+	color: #212529;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.Razzaque-speech {
+	display: flex;
+	margin-top: 50px;
+}
+
+.razzaque img{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #eee;
+	border-radius: 50%;
+	margin-left: 70px;
+}
+
+.speech p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 100px;
+	margin-top: 47px;
+	font-weight: 400;
+}
+/*-- Chief section area end --*/
+
+/*-- services section area start --*/
+.services-section{
+	padding: 80px 0;
+	background: #F8F9FA;
+}
+
+.services-wrapper h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.Web-Domain{
+	margin-top: 50px;
+}
+
+.Web{
+	text-align: center;
+}
+
+.Web img{
+	width: 180px;
+	height: 180px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Web a{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.ERP{
+	text-align: center;
+}
+
+.ERP img{
+	width: 180px;
+	height: 180px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.ERP a{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.Software{
+	text-align: center;
+}
+
+.Software img{
+	width: 180px;
+	height: 180px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Software a{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.Domain{
+	text-align: center;
+} 
+
+.Domain img{
+	width: 180px;
+	height: 180px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Domain a{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+/*-- services section area end --*/
+
+/*-- rainigs section area start --*/
+.rainigs-section{
+	padding: 50px 0;
+}
+
+.rainigs-wrapper{
+	text-align: center;
+}
+
+.rainigs-wrapper h2{
+	font-size: 38px;
+	color: #333;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.rainigs-wrapper h3{
+	font-size: 25px;
+	color: #333;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+.Application img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Application h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+.Programming img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+
+.Programming h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+.Networking img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Networking h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+.Database img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+
+.Database h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+.AutoCAD img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.AutoCAD h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+.Graphics img{
+	width: 190px;
+	height: 190px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+
+.Graphics h2{
+	font-size: 18px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: none;
+}
+/*-- rainigs section area end --*/
+
+/*-- Professional section area start --*/
+.Professional-section{
+	padding: 50px 0;
+	background: #F8F9FA;
+}
+
+.Professional-wrapper{
+	text-align: center;
+}
+
+.Professional-wrapper h2{
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.Development-Management{
+	margin-top: 80px;
+}
+
+.Web-Development img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Web-Development h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Video-Editing img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Video-Editing h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Software-Development img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Software-Development h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Digital-Marketing img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Digital-Marketing h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.App-Development img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.App-Development h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Interior-Design img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Interior-Design h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Graphics-Design img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+}
+
+.Graphics-Design h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Content-Management img{
+	width: 160px;
+	height: 160px;
+	border: 7px solid #eee;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.Content-Management h2{
+	font-size: 17px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+}
+/*-- Professional section area end --*/
+
+/*-- project section area start --*/
+.project-section{
+	padding: 50px 0;
+}
+
+.project-wrapper{
+	text-align: center;
+}
+
+.project-wrapper h2{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	color: #212529;
+}
+
+.eduzone{
+	margin-top: 50px;	
+}
+
+.eduzone img{
+	width: 380px;
+}
+
+.eduzone h2{
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	color: #212529;
+	margin-top: 30px;
+}
+
+.eduzone p{
+	font-size: 17px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color: #212529;
+}
+/*-- project section area end --*/
+
+/*-- Honourable section area start --*/
+.Honourable-section{
+	padding: 50px 0;
+	background: #F8F9FA;
+}
+
+.Honourable-wrapper h2{
+	font-size: 32px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.comik{
+	display: inline-block;
+	background: #D5D5D5;;
+}
+
+.comik h2{ 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.Chairman{
+	display: inline-block;
+}
+
+.Chairman h2{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+
+}
+
+.Chairman p{
+	font-size: 15px;
+	color: #7C7D7D;
+}
+/*-- Honourable section area end --*/
+
+/*-- Affilated section area start --*/
+.Affilated-section{
+	padding: 50px 0;
+}
+
+.Affilated-wrapper{
+	text-align: center;
+}
+
+.Affilated-wrapper h2{
+	font-size: 32px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.ict img{
+	width: 90px;
+	margin-top: 50px;
+}
+
+.park img{
+	width: 150px;
+	margin-top: 50px;
+}
+
+.seip img{
+	width: 150px;
+	margin-top: 50px;
+}
+
+.sdf img{
+	width: 60px;
+	margin-top: 50px;
+}
+/*-- Affilated section area end --*/
+
+/*-- Memberships section area start --*/
+.Memberships-section{
+	padding: 90px 0;
+}
+
+.Memberships-wrapper{
+	text-align: center;
+}
+
+.Memberships-wrapper h2{
+	font-size: 32px;
+	color: #212529;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.council img{
+	width: 100px;
+	margin-top: 50px;
+}
+.basis img{
+	width: 140px;
+	margin-top: 50px;
+}
+.bacco img{
+	width: 150px;
+	margin-top: 50px;
+}
+.cab img{
+	width: 100px;
+	margin-top: 50px;
+}
+/*-- Memberships section area end --*/
+
+/*-- Contact section area start --*/
+.Contact-section{
+	background: url(../img/contact-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 60px 0;
+	position: relative;
+}
+
+.Contact-section:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.Contact-wrapper{
+	text-align: center;
+}
+
+.Contact-wrapper h2{
+	font-size: 35px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.map{
+	margin-top: 35px;
+}
+
+.Location-Nouhata{
+	display: flex;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.Location span{
+	font-size: 25px;
+	background: #7B7B7B;
+	padding: 15px 23px;
+	border-radius: 50%;
+}
+
+.Nouhata{
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+.Nouhata h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.Nouhata p{
+	font-size: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Email-icon{
+	display: flex;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.Emailicone span{
+	font-size: 25px;
+	background: #7B7B7B;
+	padding: 16px 20px;
+	border-radius: 50%;
+}
+
+.Email{
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+.Email h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.Email a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Email:hover a{
+	border-bottom: 1px solid #fff;
+}
+
+.Mobile-icon{
+	display: flex;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.Mobileicone span{
+	font-size: 25px;
+	background: #7B7B7B;
+	padding: 17px 25px;
+	border-radius: 50%;
+}
+
+.Mobile{
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+.Mobile h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 1px;
+}
+
+.Mobile a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Mobile:hover a{
+	border-bottom: 1px solid #fff;
+}
+
+.Phone-icon{
+	display: flex;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.Phoneicone span{
+	font-size: 25px;
+	background: #7B7B7B;
+	padding: 15px 20px;
+	border-radius: 50%;
+}
+
+.Phone{
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+.Phone h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 1px;
+}
+
+.Phone a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Phone:hover a{
+	border-bottom: 1px solid #fff;
+}
+
+.Name-youemail{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.name{
+	display: inline-block;
+}
+
+.name input{
+	width: 307px;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.youemail{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.youemail input{
+	width: 308px;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.your-phone input{
+	width: 100%;
+	padding: 10px 10px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Message textarea{
+	width: 100%;
+	padding: 10px 10px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 30px;
+	outline: none;
+}
+
+.success{
+	margin-top: 30px;
+}
+
+.success button{
+	background: #0776BD;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 11px 30px;
+	border: 0;
+}
+/*-- Contact section area end --*/
+
+/*-- Copyright  section area start --*/
+.Copyright-section{
+	padding: 45px 0;
+}
+
+.Copyright h2{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #212530;
+}
+
+.fb-in{
+	text-align: center;
+}
+
+.fb-in ul{
+	list-style-type: none;
+}
+
+.fb-in ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.fb-in ul li a{
+	color: #fff;
+	background: #23272B;
+	font-size: 25px;
+	padding: 20px;
+	border-radius: 50%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Icorporation-Tin{
+	display: flex;
+	text-align: right;
+
+}
+
+.Icorporation{
+	margin-left: 111px;
+}
+
+.Icorporation a{
+	font-size: 17px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.Icorporation:hover a{
+	border-bottom: 1px solid #000;
+}
+
+.Tin{
+	margin-left: 40px;
+}
+
+.Tin a{
+	font-size: 17px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.Tin:hover a{
+	border-bottom: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+/*-- Copyright  section area end --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
